@@ -1,5 +1,7 @@
 # Config vs-code 📚
 
+```
+
 {
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
@@ -58,3 +60,6 @@
 }
 }
 
+
+
+```
