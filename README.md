@@ -4,8 +4,9 @@
 
 {
   "workbench.startupEditor": "newUntitledFile",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 1.8,
+  "editor.fontSize": 15,
+  "editor.lineHeight": 1.6,
+  "apc.font.family": "Inter",
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.rulers": [80, 120],
@@ -70,12 +71,13 @@
     "!scss"
   ],
   "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.fontWeight": "400",
   "explorer.compactFolders": false,
   "git.enableSmartCommit": true,
   "editor.accessibilitySupport": "off",
   "explorer.confirmDragAndDrop": false,
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
@@ -100,7 +102,7 @@
     ".vscode": true
     // "node_modules": true
   },
-  "workbench.iconTheme": "symbols",
+  "workbench.iconTheme": "material-icon-theme",
   "update.mode": "start",
   "terminal.integrated.gpuAcceleration": "off",
   "terminal.integrated.defaultProfile.osx": "fish",
@@ -129,7 +131,7 @@
   },
   "editor.hideCursorInOverviewRuler": true,
   "editor.minimap.enabled": false,
-  "apc.electron": {
+  "apc.electron": { 
     "titleBarStyle": "hiddenInset",
     "trafficLightPosition": {
       "x": 11,
@@ -143,7 +145,7 @@
   "apc.listRow": {
     "height": 24
   },
-  "apc.font.family": "Inter",
+
   "apc.stylesheet": {
     ".editor-actions": "display: none",
     ".nosidebar .inline-tabs-placeholder": "width: 75px",
@@ -162,75 +164,14 @@
     ".env": ".env*"
   },
   "explorer.fileNesting.enabled": true,
-  "cSpell.userWords": [
-    "bootcamp",
-    "chakra",
-    "checkin",
-    "checkins",
-    "clsx",
-    "Codegen",
-    "datadog",
-    "Datetime",
-    "dayjs",
-    "Dotenv",
-    "Elysia",
-    "esbuild",
-    "fastify",
-    "Fastify",
-    "feedbackwidget",
-    "ffprobe",
-    "Hasher",
-    "Hono",
-    "ilike",
-    "IUGU",
-    "jamjuree",
-    "jupiter",
-    "liveblocks",
-    "LIVEBLOCKS",
-    "Marguerita",
-    "middlewares",
-    "mixpanel",
-    "monaco",
-    "nestjs",
-    "omni",
-    "Omni",
-    "Onboarded",
-    "pallas",
-    "postgres",
-    "postgresql",
-    "prefetch",
-    "reactflow",
-    "roboto",
-    "rocketseat",
-    "rotion",
-    "rsxp",
-    "Sandpack",
-    "shiki",
-    "skylab",
-    "sqlite",
-    "supergraph",
-    "svgr",
-    "sympla",
-    "tailwindcss",
-    "textblock",
-    "tiptap",
-    "trpc",
-    "TRPC",
-    "tsup",
-    "unfollow",
-    "Unfollow",
-    "unform",
-    "Unform",
-    "unmark",
-    "upsert",
-    "Usuario",
-    "WEBPUSH"
-  ],
-  "workbench.colorTheme": "Min Dark",
   "workbench.statusBar.visible": false,
   "symbols.hidesExplorerArrows": false,
-  "workbench.editor.showTabs": "single"
+  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.editorActionsLocation": "titleBar",
+  "workbench.colorTheme": "Default Dark+",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
-
 
 ```
