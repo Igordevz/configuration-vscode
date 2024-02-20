@@ -35,7 +35,6 @@
   "editor.suggestSelection": "first",
   "explorer.confirmDelete": false,
   "gitlens.codeLens.recentChange.enabled": false,
-  "terminal.integrated.showExitAlert": false,
   "[prisma]": {
     "editor.formatOnSave": true
   },
@@ -102,17 +101,14 @@
     ".vscode": true
     // "node_modules": true
   },
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "symbols",
   "update.mode": "start",
-  "terminal.integrated.gpuAcceleration": "off",
-  "terminal.integrated.defaultProfile.osx": "fish",
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "window.commandCenter": true,
   "git.openRepositoryInParentFolders": "always",
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -121,7 +117,6 @@
   "workbench.editor.empty.hint": "hidden",
   "update.showReleaseNotes": false,
   "security.promptForLocalFileProtocolHandling": false,
-  "workbench.activityBar.location": "hidden",
   "apc.activityBar": {
     "position": "bottom",
     "hideSettings": true,
@@ -132,7 +127,6 @@
   "editor.hideCursorInOverviewRuler": true,
   "editor.minimap.enabled": false,
   "apc.electron": { 
-    "titleBarStyle": "hiddenInset",
     "trafficLightPosition": {
       "x": 11,
       "y": 10
@@ -165,13 +159,14 @@
   },
   "explorer.fileNesting.enabled": true,
   "workbench.statusBar.visible": false,
-  "symbols.hidesExplorerArrows": false,
   "workbench.editor.showTabs": "multiple",
   "workbench.editor.editorActionsLocation": "titleBar",
-  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorTheme": "Min Darker",
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "symbols.hidesExplorerArrows": false,
+  "window.menuBarVisibility": "toggle",
 }
 
 ```
