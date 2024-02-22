@@ -78,6 +78,7 @@
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "JetBrains Mono",
   "editor.codeActionsOnSave": {
+  
     "source.fixAll.eslint": "explicit"
   },
   "eslint.validate": [
@@ -86,6 +87,8 @@
     "graphql"
   ],
   "editor.semanticHighlighting.enabled": false,
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "phase",
   "breadcrumbs.enabled": false,
   "workbench.productIconTheme": "fluent-icons",
   "editor.fontFamily": "JetBrains Mono",
@@ -141,13 +144,10 @@
   },
 
   "apc.stylesheet": {
-    ".editor-actions": "display: none",
     ".nosidebar .inline-tabs-placeholder": "width: 75px",
     ".pane-header": "padding: 0 8px",
     ".pane-body": "padding: 8px",
-    ".split-view-view:first-child .pane-header": "display: none !important;",
     ".monaco-list-row": "border-radius: 4px;",
-    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
   },
   "editor.scrollbar.vertical": "hidden",
   "explorer.sortOrder": "foldersNestsFiles",
@@ -161,12 +161,24 @@
   "workbench.statusBar.visible": false,
   "workbench.editor.showTabs": "multiple",
   "workbench.editor.editorActionsLocation": "titleBar",
-  "workbench.colorTheme": "Min Darker",
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "symbols.hidesExplorerArrows": false,
-  "window.menuBarVisibility": "toggle",
+  "window.menuBarVisibility": "classic",
+  "window.zoomLevel": 1,
+  "terminal.integrated.env.linux": {},
+  "json.schemas": [
+
+    
+  ],
+  "workbench.colorTheme": "Min Darker",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
 
 ```
