@@ -1,3 +1,5 @@
+```json
+
 {
   "workbench.startupEditor": "newUntitledFile",
   "editor.fontSize": 14,
@@ -228,3 +230,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
+
+
+```
