@@ -117,7 +117,7 @@
   "security.promptForLocalFileProtocolHandling": false,
   "editor.hideCursorInOverviewRuler": true,
   "editor.minimap.enabled": false,
-  "window.titleBarStyle": "native",
+  "window.titleBarStyle": "custom",
   "apc.electron": {
     "trafficLightPosition": {
       "x": 11,
