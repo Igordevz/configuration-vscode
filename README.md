@@ -1,11 +1,12 @@
 ```json
-
 {
   "workbench.startupEditor": "newUntitledFile",
   "editor.fontSize": 15,
   "editor.lineHeight": 1.8,
+  "editor.fontWeight": "500",
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontLigatures": true,
   "editor.rulers": [
     80,
     120
@@ -88,7 +89,7 @@
   "editor.accessibilitySupport": "off",
   "explorer.confirmDragAndDrop": false,
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
@@ -144,7 +145,6 @@
     ".nosidebar .inline-tabs-placeholder": "width: 75px",
     ".pane-header": "padding: 0 8px",
     ".pane-body": "padding: 8px",
-    ".split-view-view:first-child .pane-header": "display: none !important;",
     ".monaco-list-row": "border-radius: 4px;",
     ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
   },
@@ -161,14 +161,17 @@
   "editor.tokenColorCustomizations": {
     "textMateRules": []
   },
-  "workbench.layoutControl.enabled": false,
   "workbench.colorTheme": "Vesper ++",
   "terminal.integrated.env.windows": {},
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "symbols.hidesExplorerArrows": false
+  "symbols.hidesExplorerArrows": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.layoutControl.enabled": false,
+  "window.menuBarVisibility": "compact",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
-
-
 ```
