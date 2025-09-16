@@ -1,3 +1,5 @@
+```json 
+
 {
     "editor.fontSize": 14,
     "editor.lineHeight": 1.8,
@@ -130,3 +132,5 @@
     "claudeCodeChat.wsl.nodePath": "/usr/bin/node",
     "claudeCodeChat.wsl.claudePath": "/usr/local/bin/claude"
 }
+
+```
